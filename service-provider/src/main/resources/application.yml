@@ -1,0 +1,25 @@
+#spring boot application
+spring:
+  application:
+    name: dubbo-provider-demo
+server:
+  port: 9090
+
+dubbo:
+  scan:
+    #base packages to scan dubbo components
+    base-packages: com.jml.serviceprovider.service
+  application:
+    #dubbo config properties
+    ##application config bean
+    id: dubbo-provider-demo
+    name: dubbo-provider-demo
+   #protocol config bean
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 12345
+  registry:
+    id: my-registry
+    address: N/A
+

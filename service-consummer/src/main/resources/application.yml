@@ -1,0 +1,14 @@
+# spring boot application
+server:
+  port: 8080
+spring:
+  application:
+    name: dubbo-consummer-demo
+dubbo:
+  application:
+    id: dubbo-consummer-demo
+    name: dubbo-consummer-demo
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 12345
