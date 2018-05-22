@@ -2,6 +2,9 @@ package com.jml.serviceprovider.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.jml.serviceapi.DemoService;
+import com.jml.serviceapi.dto.User;
+
+import java.util.List;
 
 /**
  * @Author: jml
@@ -18,5 +21,20 @@ public class DefaultDemoService implements DemoService {
     @Override
     public String sayHello(String name) {
         return "Hello " + name + " how are you?";
+    }
+
+    @Override
+    public List<User> findAllUsers() {
+        return null;
+    }
+
+    @Override
+    public void updateUser(User user) {
+
+    }
+
+    @Override
+    public void deleteUser(String id) {
+
     }
 }
