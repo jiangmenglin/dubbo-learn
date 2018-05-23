@@ -1,26 +1,18 @@
-package com.jml;
+package com.jml.service;
 
-import com.jml.serviceprovider.DubboProviderDemo;
+import com.jml.BaseTest;
+import com.jml.serviceapi.domain.City;
 import com.jml.serviceprovider.dao.CityMapper;
-import com.jml.serviceprovider.domain.City;
-import org.junit.ClassRule;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.rule.OutputCapture;
-import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * @Author: jml
  * @Date: 18-5-22
  * @Description:
  */
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = DubboProviderDemo.class)
-public class ProviderTest {
+public class ProviderTest extends BaseTest {
 
     @Autowired
     private CityMapper cityMapper;

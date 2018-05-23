@@ -1,4 +1,4 @@
-package com.jml.serviceapi.dto;
+package com.jml.serviceapi.domain;
 
 /**
  * @Author: jml
