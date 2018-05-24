@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="service-api" />
         <module name="service-consummer" />
+        <module name="service-login" />
         <module name="service-provider" />
       </profile>
     </annotationProcessing>
@@ -31,6 +32,7 @@
       <module name="bom" target="1.8" />
       <module name="service-api" target="1.5" />
       <module name="service-consummer" target="1.8" />
+      <module name="service-login" target="1.8" />
       <module name="service-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
