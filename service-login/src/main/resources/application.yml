@@ -1,0 +1,38 @@
+#spring boot application
+spring:
+  application:
+    name: dubbo-login
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456
+
+server:
+  port: 9091
+
+dubbo:
+  scan:
+    #base packages to scan dubbo components
+    base-packages: com.jml.serviceprovider.service
+  application:
+    #dubbo config properties
+    ##application config bean
+    id: dubbo-provider-demo
+    name: dubbo-provider-demo
+   #protocol config bean
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 12345
+  registry:
+    id: my-registry
+    address: N/A
+
+logging:
+  level:
+    root: WARN
+    sample:
+      mybatis:
+        mapper: TRACE
+

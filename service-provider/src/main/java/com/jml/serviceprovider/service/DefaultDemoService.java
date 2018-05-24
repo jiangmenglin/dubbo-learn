@@ -2,9 +2,6 @@ package com.jml.serviceprovider.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.jml.serviceapi.service.DemoService;
-import com.jml.serviceapi.domain.User;
-
-import java.util.List;
 
 /**
  * @Author: jml

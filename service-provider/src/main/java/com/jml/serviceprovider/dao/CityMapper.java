@@ -22,7 +22,7 @@ public interface CityMapper {
     @Select("select * from city where state = #{state}")
     City findByState(String state);
 
-    @Insert("insert into citty(name, state, country) values(#{name}, #{state}, #{country})")
+    @Insert("insert into city(name, state, country) values(#{name}, #{state}, #{country})")
     void insertOne(City city);
 
     @Update("update city set name = #{name}, state = #{state}, country = #{country}")
