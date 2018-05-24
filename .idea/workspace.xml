@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d473836b-5247-4431-81f8-97c368702650" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-api/src/main/resources/mappers/mappers/ClientdetailsMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-api/src/main/resources/mappers/mappers/OauthAccessTokenMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-api/src/main/resources/mappers/mappers/OauthApprovalsMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-api/src/main/resources/mappers/mappers/OauthClientDetailsMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-api/src/main/resources/mappers/mappers/OauthClientTokenMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-api/src/main/resources/mappers/mappers/OauthCodeMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-api/src/main/resources/mappers/mappers/OauthRefreshTokenMapper.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-api/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/service-api/src/main/resources/generatorConfig.xml" />
     </list>
     <ignored path="dubbo-learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -984,7 +976,7 @@
       <workItem from="1527034103351" duration="3509000" />
       <workItem from="1527055294669" duration="1644000" />
       <workItem from="1527149068486" duration="780000" />
-      <workItem from="1527151595205" duration="3621000" />
+      <workItem from="1527151595205" duration="3674000" />
     </task>
     <task id="LOCAL-00001" summary="init project &amp;&amp; first commit">
       <created>1523801516813</created>
@@ -1028,7 +1020,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527155045982</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="...">
+      <created>1527155234122</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527155234122</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1064,7 +1063,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31881000" />
+    <option name="totallyTimeSpent" value="31934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
