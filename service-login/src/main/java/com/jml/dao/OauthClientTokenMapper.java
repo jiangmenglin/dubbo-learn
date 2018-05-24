@@ -1,6 +1,7 @@
-package com.jml.serviceapi.dao;
+package com.jml.dao;
 
 import com.jml.serviceapi.domain.OauthClientToken;
+
 import java.util.List;
 
 public interface OauthClientTokenMapper {

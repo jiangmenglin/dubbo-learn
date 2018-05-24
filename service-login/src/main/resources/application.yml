@@ -8,18 +8,29 @@ spring:
     username: root
     password: 123456
 
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.jml.serviceapi.domain
+
+#pagehelper分页插件
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
 server:
   port: 9091
 
 dubbo:
   scan:
     #base packages to scan dubbo components
-    base-packages: com.jml.serviceprovider.service
+    base-packages: com.jml.service
   application:
     #dubbo config properties
     ##application config bean
-    id: dubbo-provider-demo
-    name: dubbo-provider-demo
+    id: dubbo-provider-login
+    name: dubbo-provider-login
    #protocol config bean
   protocol:
     id: dubbo

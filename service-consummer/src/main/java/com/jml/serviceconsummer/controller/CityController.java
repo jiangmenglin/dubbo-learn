@@ -15,7 +15,6 @@ import java.util.List;
  * @Description:
  */
 @RestController
-//@RequestMapping("/city")
 public class CityController {
 
     @Reference(

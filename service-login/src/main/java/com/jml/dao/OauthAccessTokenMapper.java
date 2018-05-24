@@ -1,8 +1,9 @@
-package com.jml.serviceapi.dao;
+package com.jml.dao;
 
 import com.jml.serviceapi.domain.OauthAccessToken;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface OauthAccessTokenMapper {
     /**
