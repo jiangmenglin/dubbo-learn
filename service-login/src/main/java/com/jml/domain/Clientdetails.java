@@ -1,4 +1,4 @@
-package com.jml.serviceapi.domain;
+package com.jml.domain;
 
 import java.io.Serializable;
 

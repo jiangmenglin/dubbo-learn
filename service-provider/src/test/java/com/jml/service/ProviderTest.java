@@ -1,7 +1,7 @@
 package com.jml.service;
 
 import com.jml.BaseTest;
-import com.jml.serviceapi.domain.City;
+import com.jml.serviceapi.dto.City;
 import com.jml.serviceprovider.dao.CityMapper;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

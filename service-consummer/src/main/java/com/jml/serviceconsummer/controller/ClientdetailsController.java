@@ -1,7 +1,7 @@
 package com.jml.serviceconsummer.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.jml.serviceapi.domain.Clientdetails;
+import com.jml.serviceapi.dto.Clientdetails;
 import com.jml.serviceapi.service.ClientdetailsService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,11 +16,7 @@ import java.util.List;
  */
 @RestController
 public class ClientdetailsController {
-    @Reference(
-            version = "1.0.0",
-            application = "${dubbo.application.id}",
-            url = "dubbo://localhost:20880"
-    )
+    @Reference(version = "1.0.0")
     private ClientdetailsService clientdetailsService;
 
     @PostMapping("Clientdetails/addOne")

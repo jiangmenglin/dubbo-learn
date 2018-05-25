@@ -1,12 +1,10 @@
 package com.jml.serviceconsummer.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.jml.serviceapi.domain.City;
+import com.jml.serviceapi.dto.City;
 import com.jml.serviceapi.service.CityService;
-import com.jml.serviceconsummer.vo.ResultVo;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,11 +15,7 @@ import java.util.List;
 @RestController
 public class CityController {
 
-    @Reference(
-            version = "1.0.0",
-            application = "${dubbo.application.id}",
-            url = "dubbo://localhost:20880"
-    )
+    @Reference(version = "1.0.0")
     private CityService cityService;
 
     @GetMapping(value = "/city/findById/{id}")

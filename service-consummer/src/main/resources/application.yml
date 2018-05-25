@@ -1,6 +1,6 @@
 # spring boot application
 server:
-  port: 8080
+  port: 8088
 spring:
   application:
     name: dubbo-consummer-demo
@@ -12,3 +12,5 @@ dubbo:
     id: dubbo
     name: dubbo
     port: 12345
+  registry:
+    address: zookeeper://127.0.0.1:2181

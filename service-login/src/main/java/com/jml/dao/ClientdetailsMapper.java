@@ -1,6 +1,6 @@
 package com.jml.dao;
 
-import com.jml.serviceapi.domain.Clientdetails;
+import com.jml.domain.Clientdetails;
 
 import java.util.List;
 

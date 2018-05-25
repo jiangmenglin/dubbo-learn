@@ -13,11 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class DemoConsummerController {
-    @Reference(
-            version = "1.0.0",
-            application = "${dubbo.application.id}",
-            url = "dubbo://localhost:20880"
-    )
+    @Reference(version = "1.0.0")
     private DemoService demoService;
 
     @RequestMapping(value = "/sayHello/{name}")

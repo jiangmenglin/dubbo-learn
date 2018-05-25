@@ -1,6 +1,6 @@
 package com.jml.dao;
 
-import com.jml.serviceapi.domain.OauthApprovals;
+import com.jml.domain.OauthApprovals;
 
 import java.util.List;
 

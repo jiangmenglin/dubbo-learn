@@ -1,6 +1,6 @@
 package com.jml.serviceapi.service;
 
-import com.jml.serviceapi.domain.City;
+import com.jml.serviceapi.dto.City;
 
 import java.util.List;
 

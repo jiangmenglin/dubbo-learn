@@ -1,6 +1,6 @@
 package com.jml.dao;
 
-import com.jml.serviceapi.domain.OauthRefreshToken;
+import com.jml.domain.OauthRefreshToken;
 
 import java.util.List;
 

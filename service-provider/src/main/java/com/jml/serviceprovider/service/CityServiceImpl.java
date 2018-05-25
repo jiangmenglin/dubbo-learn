@@ -1,7 +1,7 @@
 package com.jml.serviceprovider.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.jml.serviceapi.domain.City;
+import com.jml.serviceapi.dto.City;
 import com.jml.serviceapi.service.CityService;
 import com.jml.serviceprovider.dao.CityMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,12 +15,7 @@ import java.util.List;
  * @Description:
  */
 @Transactional
-@Service(
-        version = "1.0.0",
-        application = "${dubbo.application.id}",
-        protocol = "${dubbo.protocol.id}",
-        registry = "${dubbo.registry.id}"
-)
+@Service(version = "1.0.0")
 public class CityServiceImpl implements CityService {
 
     @Autowired

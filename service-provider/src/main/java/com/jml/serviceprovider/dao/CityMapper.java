@@ -1,6 +1,6 @@
 package com.jml.serviceprovider.dao;
 
-import com.jml.serviceapi.domain.City;
+import com.jml.serviceapi.dto.City;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;

@@ -1,6 +1,6 @@
 package com.jml.dao;
 
-import com.jml.serviceapi.domain.OauthAccessToken;
+import com.jml.domain.OauthAccessToken;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
