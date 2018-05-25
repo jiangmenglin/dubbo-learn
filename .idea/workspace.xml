@@ -2,58 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d473836b-5247-4431-81f8-97c368702650" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-consummer/src/main/java/com/jml/serviceconsummer/DynamicDubboPortReaderImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/DynamicDubboPortReaderImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/domain/Clientdetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/domain/OauthAccessToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/domain/OauthApprovals.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/domain/OauthClientDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/domain/OauthClientToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/domain/OauthCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/domain/OauthRefreshToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mybatis-generator/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mybatis-generator/mybatisGeneratorinit.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/user/User.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/City.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/dto/City.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/Clientdetails.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/dto/Clientdetails.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/OauthAccessToken.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/dto/OauthAccessToken.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/OauthApprovals.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/dto/OauthApprovals.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/OauthClientDetails.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/dto/OauthClientDetails.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/OauthClientToken.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/dto/OauthClientToken.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/OauthCode.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/dto/OauthCode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/domain/OauthRefreshToken.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/dto/OauthRefreshToken.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bom/pom.xml" afterPath="$PROJECT_DIR$/bom/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-api/pom.xml" afterPath="$PROJECT_DIR$/service-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/service/CityService.java" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/jml/serviceapi/service/CityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consummer/src/main/java/com/jml/serviceconsummer/controller/CityController.java" afterPath="$PROJECT_DIR$/service-consummer/src/main/java/com/jml/serviceconsummer/controller/CityController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consummer/src/main/java/com/jml/serviceconsummer/controller/ClientdetailsController.java" afterPath="$PROJECT_DIR$/service-consummer/src/main/java/com/jml/serviceconsummer/controller/ClientdetailsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consummer/src/main/java/com/jml/serviceconsummer/controller/DemoConsummerController.java" afterPath="$PROJECT_DIR$/service-consummer/src/main/java/com/jml/serviceconsummer/controller/DemoConsummerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consummer/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-consummer/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/pom.xml" afterPath="$PROJECT_DIR$/service-login/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/service-login.iml" afterPath="$PROJECT_DIR$/service-login/service-login.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/Application.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/ClientdetailsMapper.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/ClientdetailsMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthAccessTokenMapper.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthAccessTokenMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthApprovalsMapper.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthApprovalsMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthClientDetailsMapper.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthClientDetailsMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthClientTokenMapper.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthClientTokenMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthCodeMapper.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthCodeMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthRefreshTokenMapper.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/dao/OauthRefreshTokenMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/java/com/jml/service/ClientdetailsServiceImpl.java" afterPath="$PROJECT_DIR$/service-login/src/main/java/com/jml/service/ClientdetailsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/mappers/ClientdetailsMapper.xml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mappers/ClientdetailsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthAccessTokenMapper.xml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthAccessTokenMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthApprovalsMapper.xml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthApprovalsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthClientDetailsMapper.xml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthClientDetailsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthClientTokenMapper.xml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthClientTokenMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthCodeMapper.xml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthCodeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthRefreshTokenMapper.xml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/mappers/OauthRefreshTokenMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/jml/serviceprovider/dao/CityMapper.java" afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/jml/serviceprovider/dao/CityMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/jml/serviceprovider/service/CityServiceImpl.java" afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/jml/serviceprovider/service/CityServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/jml/serviceprovider/service/DefaultDemoService.java" afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/jml/serviceprovider/service/DefaultDemoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-provider/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider/src/test/java/com/jml/service/ProviderTest.java" afterPath="$PROJECT_DIR$/service-provider/src/test/java/com/jml/service/ProviderTest.java" />
     </list>
     <ignored path="dubbo-learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1302,7 +1251,7 @@
       <workItem from="1527151595205" duration="8876000" />
       <workItem from="1527211909479" duration="595000" />
       <workItem from="1527212589914" duration="216000" />
-      <workItem from="1527212811132" duration="6682000" />
+      <workItem from="1527212811132" duration="6752000" />
     </task>
     <task id="LOCAL-00001" summary="init project &amp;&amp; first commit">
       <created>1523801516813</created>
@@ -1367,7 +1316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527163350447</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="...">
+      <created>1527219531681</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527219531681</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1403,7 +1359,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44629000" />
+    <option name="totallyTimeSpent" value="44699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
