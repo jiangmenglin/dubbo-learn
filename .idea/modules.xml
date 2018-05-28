@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bom/bom.iml" filepath="$PROJECT_DIR$/bom/bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fixfunds-dao/fixfunds-dao.iml" filepath="$PROJECT_DIR$/fixfunds-dao/fixfunds-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fixfunds-service-api/fixfunds-service-api.iml" filepath="$PROJECT_DIR$/fixfunds-service-api/fixfunds-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fixfunds-service-provider/fixfunds-service-provider.iml" filepath="$PROJECT_DIR$/fixfunds-service-provider/fixfunds-service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-api/service-api.iml" filepath="$PROJECT_DIR$/service-api/service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-consummer/service-consummer.iml" filepath="$PROJECT_DIR$/service-consummer/service-consummer.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-login/service-login.iml" filepath="$PROJECT_DIR$/service-login/service-login.iml" />

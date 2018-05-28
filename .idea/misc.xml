@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/service-api/pom.xml" />
         <option value="$PROJECT_DIR$/service-consummer/pom.xml" />
+        <option value="$PROJECT_DIR$/fixfunds-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/fixfunds-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/fixfunds-service-provider/pom.xml" />
       </list>
     </option>
   </component>

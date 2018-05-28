@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/bom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fixfunds-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fixfunds-service-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-consummer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-login" charset="UTF-8" />

@@ -22,6 +22,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="fixfunds-dao" />
+        <module name="fixfunds-service-api" />
+        <module name="fixfunds-service-provider" />
         <module name="service-api" />
         <module name="service-consummer" />
         <module name="service-login" />
@@ -30,6 +33,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bom" target="1.8" />
+      <module name="fixfunds-dao" target="1.8" />
+      <module name="fixfunds-service-api" target="1.5" />
+      <module name="fixfunds-service-provider" target="1.8" />
       <module name="service-api" target="1.5" />
       <module name="service-consummer" target="1.8" />
       <module name="service-login" target="1.8" />

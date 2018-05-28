@@ -1,0 +1,48 @@
+#spring boot application
+spring:
+  application:
+    name: fixfunds-service-provider
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/fixfunds
+        username: fixfunds
+        password: fixfunds
+
+    mybatis:
+      mapperLocations: classpath:mappers/*.xml
+      typeAliasesPackage: com.jml.fixfunds.domain
+
+    #pagehelper分页插件
+    pagehelper:
+        helperDialect: mysql
+        reasonable: true
+        supportMethodsArguments: true
+        params: count=countSql
+
+server:
+  port: 9093
+
+dubbo:
+  scan:
+    #base packages to scan dubbo components
+    base-packages: com.jml.service
+  application:
+    #dubbo config properties
+    ##application config bean
+    id: fixfunds-service-provider
+    name: fixfunds-service-provider
+   #protocol config bean
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 12346
+  registry:
+    address: zookeeper://127.0.0.1:2181
+
+logging:
+  level:
+    root: WARN
+    sample:
+      mybatis:
+        mapper: TRACE
+
